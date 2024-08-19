@@ -2,12 +2,12 @@
 
 <img src="https://assets.tokbox.com/img/vonage/Vonage_VideoAPI_black.svg" height="48px" alt="Tokbox is now known as Vonage" />
 
-This tutorial will walk you though the process of creating a video call application in just a few steps.
+This tutorial will walk you through the process of creating a video call application in just a few steps.
 
-We will ultilize:
+We will utilize:
 <details>
     <summary>Vonage Video API</summary>
-    The <a href="https://developer.vonage.com/en/video/overview" target="_blank">Vonage Video API</a> platform makes it possible to embed real-time, high-quality interactive video, messaging, screen-sharing, and more into web and mobile apps. The platform includes client libraries for the web, mobile and desktop platform as well as server-side SDKs.
+    The <a href="https://developer.vonage.com/en/video/overview" target="_blank">Vonage Video API</a> platform makes it possible to embed real-time, high-quality interactive video, messaging, screen-sharing, and more into web and mobile apps. The platform includes client libraries for the web, mobile, and desktop platform as well as server-side SDKs.
 </details>
 
 <details>
@@ -17,7 +17,7 @@ We will ultilize:
 
 <details>
     <summary>Vonage Video JavaScript Client SDK and Web Components</summary>
-    The <a href="https://developer.vonage.com/en/video/client-sdks/web/overview" target="_blank">Vonage Video JavaScript Client SDK</a> unlocks the power of the Video API in the browser. The <a href="https://github.com/Vonage-Community/web_components-video_api-javascript/" target="_blank">Vonage Video Web Components</a> package many of the most common use cases into self contained elements that can be dropped into any Web application.
+    The <a href="https://developer.vonage.com/en/video/client-sdks/web/overview" target="_blank">Vonage Video JavaScript Client SDK</a> unlocks the power of the Video API in the browser. The <a href="https://github.com/Vonage-Community/web_components-video_api-javascript/" target="_blank">Vonage Video Web Components</a> package many of the most common use cases into self-contained elements that can be dropped into any Web application.
 </details>
 
 <details>
@@ -27,7 +27,7 @@ We will ultilize:
 
 ## Getting Set Up
 
->Note:  These instructions are also in the README.md file if you need to reference them again.
+>Note:  These instructions are also in the project's README.md file if you need to reference them again.
 1. To start, ensure you are signed into your Vonage developer account. If you do not have an account yet, you can create one <a href="https://vonage.dev/Dreamforce-24" target="_blank">here</a>.
 
 2. Next, click the "Get Code" tab.
