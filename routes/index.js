@@ -109,7 +109,9 @@ async function createSession(response, roomName, sessionProperties = {}, role = 
 }
 
 router.get('/', function (req, res) {
-  res.render('index', { title: 'Learning-Vonage-Node' });
+  // res.render('index', { title: 'Learning-Vonage-Node' });
+  // res.sendFile("/home/coder/project/views/index.html");
+  res.sendFile("index.html");
 });
 
 router.get('/broadcast/:name/host', async function (req, res) {

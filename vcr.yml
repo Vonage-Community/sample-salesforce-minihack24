@@ -1,15 +1,16 @@
 project:
-    name: vonage-video-backend-server
+  name: vonage-video-backend-server
 instance:
-    name: dev
-    runtime: nodejs18
-    region: aws.use1
-    build-script: ./install.sh
-    entrypoint:
-        - npm
-        - start
-
+  name: dev
+  runtime: nodejs18
+  region: aws.use1
+  build-script: ./install.sh
+  entrypoint:
+    - npm
+    - start
+  application-id: 17ecaa04-457a-4dfb-a1f1-987556229249
+  environment:
 debug:
-    entrypoint:
-        - npm
-        - start
+  entrypoint:
+    - npm
+    - start

@@ -1,6 +1,6 @@
 {
-  "name": "Learning Vonage Video NodeJS",
-  "description": "An Vonage Video sample app for handling Vonage server-side functionality on a NodeJS server",
+  "name": "From Zero to Hero with Vonage Video",
+  "description": "Tutorial to walk though the process of creating a video call application in just a few steps.",
   "keywords": [
     "WebRTC",
     "Vonage",
@@ -26,10 +26,6 @@
     },
     "API_SECRET": {
       "description": "Your Vonage API Secret. Required to use SIP Connectivity.",
-      "required": false
-    },
-    "CONFERENCE_NUMBER": {
-      "description": "The phone number linked to your Vonage Application. Required for SIP Connectivity.",
       "required": false
     }
   }
