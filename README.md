@@ -53,7 +53,7 @@ vcr debug
 
 9. Open the `Application Host:` URL in a new tab to start the tutorial. There are only 2 files that you will need to modify: `index.html` and `script.js`. Both can be found in the `public` folder.
 
-**Remember to refresh the page after each step.**
+**Remember to refresh the page after each step of the tutorial.**
 
 ### Good Luck!
 Let us know if you run into any issues.
