@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+}
+
+#video-chat-container {
+  display: flex;
+  width: 100%;
+  max-width: 4000px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+#publisher-container {
+  width: 50%;
+  min-width: 400px;
+  text-align: center;
+}
+
+legend {
+  text-align: left;
+}
+
+#subscribers-container {
+  width: 50%;
+  min-width: 400px;
+}
+
+video-publisher,
+video-subscribers > div {
+  display: block;
+  aspect-ratio: 16/9;
+}
+
+video-subscribers {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
+  grid-template-columns: repeat(auto-fit, 1fr);
+  place-items: center;
+}
+
+sl-qr-code {
+  display: none;
+  text-align: center;
+}
+
+#steps {
+  display: none;
+  text-align: center;
+  width: fit-content;
+  max-width: 1300px;
+  margin: auto;
+}
+
+pre {
+  width: fit-content;
+  background-color: lightgray;
+  border-radius: 5px;
+  padding: 5px;
+  margin: auto;
+}
+
+p, pre {
+  text-align: left;
+  /* text-wrap: balance; */
+}
+
+button {
+  cursor: pointer;
+}
+
+#keychain {
+  width: 100%;
+  max-width: 500px;
+}
