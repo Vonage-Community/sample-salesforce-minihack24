@@ -34,7 +34,7 @@ We will utilize:
 
 3. Then click the "Create a new development environment" button.
 
-4. You will then be asked for some information to set up your workspace. After that, your workspace will launch to show an in-browser code editor.
+4. You will then be asked for some information to set up your workspace. For **Region**, you can select the default option. For **Workspace name**, you can enter something like `Dreamforce Camp Mini-Hack`. After that, your workspace will launch to show an in-browser code editor.
 
 5. If the terminal isn't already opened, click "Terminal" in the menu bar at the top and select "New Terminal".
 
@@ -50,7 +50,8 @@ vcr debug
 ```
 
 8. Type `y` and press `Enter` for the question regarding a debug application-id. The Terminal will look similar to this:
-![Screenshot of Terminal with command output](/vcr-terminal.jpg)
+
+![Screenshot of Terminal with command output](/vcr-terminal.png)
 
 9. Open the `Application Host:` URL in a new tab to start the tutorial. There are only 2 files that you will need to modify: `index.html` and `script.js`. Both can be found in the `public` folder.
 
