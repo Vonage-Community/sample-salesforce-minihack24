@@ -35,7 +35,6 @@ function getCredentials() {
   .then((json) => {
   // ********** STEP 2 CODE GOES HERE **********
     
-  
     initializeSession();
   })
   .catch((error) => {
@@ -48,6 +47,25 @@ function getCredentials() {
 }
 
 getCredentials();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -288,7 +306,7 @@ videoSubscribersEl.properties = {
       qrCode.style.display = "none";
       stepsEl.querySelector("h1").innerText = "Congratulations!";
       stepsEl.querySelector("p").innerHTML =
-        "<center>Please notify a Vonage representative of your accomplishment!<br><br>To get a Vonage keychain, post a screenshot of your video call to a social network, tag Vonage, and show us at the booth.<br><br><img id='keychain' src='/keychain-figures-sized.jpg' alt='The three Vonage characters on a wooden table.'/></center>";
+        "<center>Please notify a Vonage representative of your accomplishment!</center>";
       stepsEl.querySelector("code").style.display = "none";
       confetti({
         particleCount: 500,
@@ -329,4 +347,15 @@ copyButton.addEventListener("click", () => {
   setTimeout(() => {
     copyButton.textContent = "copy to clipboard";
   }, 1000);
+});
+
+const socket = io();
+
+socket.on('connect', () => {
+  console.log(`event: connect | session id: ${socket.id}`);
+});
+
+socket.on('refresh', (arg) => {
+  console.log('refresh!!!!',arg);
+  window.location.reload();
 });

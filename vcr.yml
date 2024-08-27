@@ -8,7 +8,7 @@ instance:
   entrypoint:
     - npm
     - start
-  application-id: 17ecaa04-457a-4dfb-a1f1-987556229249
+  application-id: 1b9b8fd7-0973-44c8-ae81-af5d2c44908e
   environment:
 debug:
   entrypoint:
