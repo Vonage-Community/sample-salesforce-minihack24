@@ -27,7 +27,6 @@ We will utilize:
 
 ## Getting Set Up
 
->Note:  These instructions are also in the project's README.md file if you need to reference them again.
 1. To start, ensure you are signed into your Vonage developer account. If you do not have an account yet, you can create one <a href="https://vonage.dev/Dreamforce-24" target="_blank">here</a>.
 
 2. Next, click the "Get Code" tab.
