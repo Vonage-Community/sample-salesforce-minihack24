@@ -19,11 +19,13 @@ function initializeSession() {
 // Set session and token (and optionally properties) for Web Components
 // ********** STEP 7 CODE GOES HERE **********
    
-            
+  
 // ********** STEP 9 CODE GOES HERE **********
 
-                
+   
 // ********** STEP 13 CODE GOES HERE **********
+
+
 
 }
 
@@ -34,7 +36,8 @@ function getCredentials() {
   .then((response) => response.json())
   .then((json) => {
   // ********** STEP 2 CODE GOES HERE **********
-    
+
+  
     initializeSession();
   })
   .catch((error) => {
@@ -304,10 +307,10 @@ videoSubscribersEl.properties = {
       console.log("streamCreated!", event.stream.videoType);
       console.log("show step 15");
       qrCode.style.display = "none";
+      stepsEl.querySelector("code").style.display = "none";
       stepsEl.querySelector("h1").innerText = "Congratulations!";
       stepsEl.querySelector("p").innerHTML =
-        "<center>Please notify a Vonage representative of your accomplishment!</center>";
-      stepsEl.querySelector("code").style.display = "none";
+        "<section id='prize-container'><center>Please notify a Vonage representative of your accomplishment to collect your Vonage socks!<br>Post a screenshot of your video call to X and tag @vonagedev and we'll DM you about an extra prize 👀</center><div><img id='socks' src='images/vonage-socks.png'/></div></section>";
       confetti({
         particleCount: 500,
         spread: 70,

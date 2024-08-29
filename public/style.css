@@ -14,10 +14,10 @@ h1 {
   text-align: center;
 }
 
-#video-chat-container {
+#video-chat-container, #prize-container {
   display: flex;
   width: 100%;
-  max-width: 4000px;
+  max-width: 1500px;
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
@@ -81,7 +81,7 @@ button {
   cursor: pointer;
 }
 
-#keychain {
+#socks {
   width: 100%;
-  max-width: 500px;
+  max-width: 150px;
 }
