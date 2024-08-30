@@ -110,7 +110,10 @@ const observer = new PerformanceObserver((list) => {
     if (entry.initiatorType === "fetch") {
       console.log('Fetch request detected to', entry.name);
       console.log("fetch", {applicationId, sessionId, token}, typeof session === "undefined");
-      getStep();
+      setTimeout(() => {
+        console.log("Getting next step.");
+        getStep();
+      }, "1500");
     }
   }
 });
