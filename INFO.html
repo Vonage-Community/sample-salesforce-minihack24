@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Basic Video Call with Web Components Walkthrough" />
+    <title>From Zero to Hero with Vonage Video</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Load Vonage Video Client SDK -->
+    <!-- ********** STEP 1 CODE GOES HERE ********** -->
+    <script src="https://cdn.jsdelivr.net/npm/@vonage/client-sdk-video@latest/dist/js/opentok.min.js"></script>
+    
+    <!-- Load Web Components-->
+    <!-- ********** STEP 5 CODE GOES HERE ********** -->
+    <script type="module" src="https://unpkg.com/@vonage/video-publisher@latest/video-publisher.js?module"></script>
+
+    <!-- ********** STEP 11 CODE GOES HERE ********** -->
+    <script type="module" src="https://unpkg.com/@vonage/video-subscribers@latest/video-subscribers.js?module"></script>
+
+  </head>
+  <body>
+    <header>
+      <h1>From Zero to Hero with Vonage Video</h1>
+    </header>
+    <main id="video-chat-container">
+      <section id="publisher-container">
+        <fieldset>
+          <legend>Publisher</legend>
+          <!-- ********** STEP 4 CODE GOES HERE ********** -->
+          <video-publisher></video-publisher>
+          
+        </fieldset>
+        <!-- ********** STEP 8 CODE GOES HERE ********** -->
+        <button id="video-toggle">toggle Video</button>
+        <button id="audio-toggle">toggle Audio</button>
+
+      </section>
+      <section id="subscribers-container">
+        <fieldset>
+          <legend>Subscribers</legend>
+          <!-- ********** STEP 10 CODE GOES HERE ********** -->
+          <video-subscribers></video-subscribers>
+
+        </fieldset>
+      </section>
+    </main>
+    <section id="steps">
+      <h1></h1>
+      <p></p>
+      <pre>
+        <code>
+        </code>
+      </pre>
+      <button id="copy-button">copy to clipboard</button>
+    </section>
+    <sl-qr-code
+      value="https://developer.vonage.com/"
+      label="Scan this code to visit the Vonage Developer Portal!"
+    ></sl-qr-code>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.16.0/cdn/shoelace.js"></script>
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js" integrity="sha384-2huaZvOR9iDzHqslqwpR87isEmrfxqyWOF7hr7BY6KG0+hVKLoEXMPUJw3ynWuhO" crossorigin="anonymous"></script>
+    <script type="module" src="/script.js" defer></script>
+  </body>
+</html>
