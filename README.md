@@ -54,7 +54,7 @@ vcr debug
 
 ![Screenshot of Terminal with command output](/vcr-terminal.png)
 
-9. Click the link next to `Application Host:` in the terminal to open the demo in a new tab to start the tutorial. There are only 2 files that you will need to paste code into: `index.html` and `script.js`. Both can be found in the `public` folder in the column to the left in this tab under `Project` -> `public`.
+9. Click the link next to `Application Host:` in the terminal to open the demo in a new tab to start the tutorial. There are only 2 files that you will need to paste code into: `index.html` and `script.js`. Both can be found in the `public` folder in the column to the left in this window under `Project` -> `public`.
 
 ![Screenshot of Terminal with command output](/public-folder.png)
 
