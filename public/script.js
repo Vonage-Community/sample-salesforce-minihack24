@@ -157,7 +157,7 @@ function getStep(){
     console.log("show step 2");
     stepsEl.querySelector("h1").innerText = "Step 2: Get Credentials";
     stepsEl.querySelector("p").innerText =
-      "To participate in the video call, we will need some credentials. These are the Id of the Application (applicationId), the Id of the video call's session (sessionId) and a token to join the video call. We will get these from the server already created with this application. Copy and past the following code into the script.js file.";
+      "To participate in the video call, we will need some credentials. These are the Id of the Application (applicationId), the Id of the video call's session (sessionId) and a token to join the video call. We will get these from the server already created with this application. Copy and paste the following code into the script.js file.";
         stepsEl.querySelector("code").innerText = `
 applicationId = json.applicationId;
 sessionId = json.sessionId;
