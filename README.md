@@ -42,6 +42,8 @@ We will utilize:
 npm install
 ```
 
+> Note: Don't worry about any messages regarding funding, audit fixing, updating, or upgrading. You can continue to the next step.
+
 7. Once the dependencies are installed, you can start the tutorial by launching a debugging instance of the project by running this command in the Terminal:
 
 ```
@@ -52,9 +54,11 @@ vcr debug
 
 ![Screenshot of Terminal with command output](/vcr-terminal.png)
 
-9. Open the `Application Host:` URL in a new tab to start the tutorial. There are only 2 files that you will need to modify: `index.html` and `script.js`. Both can be found in the `public` folder.
+9. Click the link next to `Application Host:` in the terminal to open the demo in a new tab to start the tutorial. There are only 2 files that you will need to paste code into: `index.html` and `script.js`. Both can be found in the `public` folder in the column to the left in this tab under `Project` -> `public`.
 
 ![Screenshot of Terminal with command output](/public-folder.png)
+
+> Note: `index.html` and `script.js` are labeled with `********** STEP # CODE GOES HERE **********` to indicate where to paste that step's code. The labels are not in numerical order in the files because of where each step must happen in the code to function properly.
 
 ### Good Luck!
 Let us know if you run into any issues.
